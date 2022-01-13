@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Roboto:wght@100&display=swap');
+ 
+/* Main start */
+body{
+    padding: 0px;
+    margin: 0px;
+    height: 2500px;
+    background-color: black;
+}
+li, a, button{
+    padding: 12px;
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: 100; */
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+.tron{
+    position: relative; 
+    height: 30px;
+    background-color:black;
+     
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+}
+.logo{
+    cursor: pointer;
+}
+.next{
+    list-style: none;
+}
+.next li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.next li a{
+    transition: all 0.4s ease 0s;
+}
+.next li a:hover{
+    color: blue;
+}
+button{
+    padding: 9px 25px;
+    background-color: orange;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+}
+button:hover{
+    background-color: black;
+}
+
+ 
+
+/* Center */
+
+.center{
+    padding: 0px;
+    margin: 0px ;
+    top: 0px;
+    left: 100px;
+    /* width: 600px;      */
+    height: 600px;
+    background-color:black;
+}
+.center  h1{
+    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-size: 25px;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 310px;
+    margin-top: 10px;
+}
+.center h2{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: black;
+    padding: 30px;
+    line-height: 35px;
+    margin-left: 10px;
+    top:30px;
+    /* margin-top: 150px; */
+}
+.text{
+    position:absolute;
+    width: 520px;
+    height: 500px;
+    background-color:burlywood;
+    left: 100px;
+}
+.image {
+    position: relative;
+    height: 400px;
+    width: 500px;
+    left: 750px;
+    bottom:-35px;
+    
+}
+.image:hover{
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-direction:alternated;
+}
+ 
+
+
+.block {
+    bottom: -400px;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: wheat;
+}
+  
+.in {
+    display: block;
+    width: 300px;
+    height: 450px;
+    height: auto;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 300px;
+    width: 300px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+  
+.block:hover .overlay {
+    opacity: 1;
+}
+  
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    margin-bottom: 20px;
+}
+
+.main-slider{
+    overflow: hidden;
+    height: 800px;
+     
+}
+.main-slider img{
+    position: absolute;
+    height: 800px;
+    width: 1349px;
+    left:0px;
+}
+.centered {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 240px;
+    left: 800px ;
+    border-radius: 50px;
+    
+     
+  }
+.main-slider h1{
+    font-family: 'Kanit', sans-serif;
+    font-size: 50px;
+    color: white;
+    margin-left: 125px;
+    width: 110px;
+    height: 80px;
+    background-color:orange;
+    border-radius: 30px;
+    transition: 1s;
+    /* margin-bottom: 20px;
+    margin-left: 310px;
+    margin-top: 10px; */
+
+}
+.main-slider h1:hover{
+    background-color:black;
+    width: 110px;
+}
+.main-slider h2{
+    width: 180px;
+    height: 90px;
+    position: absolute;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 75px;
+    margin-top: 30px;
+    background-color:black;
+    border-radius:10px; 
+    padding: 10px;
+     
+}
+.main-slider h2:hover{
+    background-color:blueviolet;
+}
+.pen{
+height: 70px;
+background-color:black;
+}
+.pen h1{
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    color: white;
+
+}
+
+.important{
+    width: 950px;
+    height: 300px;
+    background-color:orange;
+    transition: 1s;
+    margin: 200px;
+    position: relative;
+    bottom: 150px;
+}
+.important:hover{
+    background-color:black;
+}
+
+.point{
+     
+    position: relative;
+    left: 430px;
+    bottom:100px;
+    color:white;
+    border-radius: 10px;
+    background-color: black;
+}
+.point:hover{
+    background-color:darkgreen;
+    color:white;
+}
+
+
+.point2{
+    position: relative;
+    left: 335px;
+    bottom:250px;
+    color:white;
+    border-radius: 10px;
+    background-color: black;
+}
+.point2:hover{
+    background-color:darkgreen;
+    color:white;
+}
+
+
+
+
+.contex img{
+    height: 300px; width: 400px;  position:relative; left: 0px;bottom: 0px;border: 1px white;
+} 
+.text-of{
+    width: 400px;
+    height: 295px;
+    background-color:black;
+    position: relative;
+    bottom: 362px;
+    left:550px;
+
+}
+ 
+
+.text-of h1{
+    color: black;
+    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-size: 25px;
+    text-align: center;
+    color:white;
+}
+ 
+ 
+.text-of h3{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 0px;
+    line-height: 25px;
+    margin-left: 25px;
+    top:50px;
+    color: white;
+    left: 0px;
+     
+}
+
+
+.contex-image2{
+    height: 300px; 
+    width: 400px;  
+    position:relative; 
+    left: 550px;
+    bottom: 0px;
+    border: 1px white;
+} 
+.text-of2{
+    width: 400px;
+    height: 295px;
+    background-color:black;
+    position: relative;
+    bottom: 363px;
+    left:0px;
+
+}
+ 
+
+.text-of2 h1{
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+     
+}
+ 
+ 
+.text-of2 h3{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: white;
+    padding: 0px;
+    line-height: 25px;
+    margin-left: 25px;
+    top:50px;
+    color: white;
+    left: 0px;
+     
+}
+@keyframes anim {
+    0% {
+        left: 750px;
+    }
+    100% {
+        left: 120px;
+    }
+}
+
+.footer{
+    height: 700px; background-color: black; position: relative; bottom:250px;
+}
+.footerImg{
+        width: 1349px;
+        height: 700px;
+}
+
+.last{
+    position: relative;
+    top:-269px;
+    height: 1000px;
+    background-color:black;
+}
+.last h1{
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 50px;
+
+}
+.lastImg{
+    position: relative;
+    top:140px;
+    left: 20px;
+    width: 400px;
+    height: 350px;
+    margin: 20px;
+}
+.lasterImg:hover{
+    border: 5px  white solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

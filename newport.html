@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+
+    <!-- Header start (main) -->
+
+<div class="tron">
+        <img src="img/video-tutorials.png" style="width: 50px; height: 50px;" class="logo">
+        <nav>
+            <ul class="next">
+                <li><a href="#about">About</a></li>
+                <li><a href="#intrests">Time</a></li>
+                <li><a href="#image">Pictures</a></li>
+                <li><a href="#">Friends</a></li>
+                <li><a href="#">Facts</a></li>
+
+            </ul>
+        </nav>
+        <a href="#" class="some"><button> Contact</button></a>
+</div>
+
+<div class="main-slider">  
+    <img src="img/book (3).jpg"> <div class="centered"><h1>Hello</h1><h2>My name is Nurdoolot. <br>This is my portfolio.</h2></div>
+   
+</div>
+
+<!-- Center  -->
+
+
+<div class="center">
+    <h1 id="about">About</h1>
+    <div class="text"><h2>Hello my friend. I will tell you about myself (short biography). My name is Nurdoolot. I am 17 years old. I was born in 2004 in the village of Gulcha in the Osh region. My family is big. My father works for the Aga Khan Foundation and my mother works as a mathematics and computer science teacher. I am the oldest in the family. At the moment, study at Ala-Too College in your second year. In the future I want to become a professional developer and I want to help students like me and others and so on (in the future).</h2></div>
+    
+     <img src="./img/about.jpg" class="image" > 
+</div>
+
+<div class="pen"> <h1 id="intrests">In free time</h1></div>
+
+<!-- Div (free time) -->
+
+
+<div class="important" onclick="next()">
+    <div class="contex">
+        <div class="contex-image"> <img src="img/game.jpg" id="image" ></div> 
+    
+        <button onclick="c()" class="point">next</button>
+        <button onclick="b()" class="point2">back</button>
+    
+            <div class="text-of">
+                <h1 id="main">Game</h1> 
+                <h3 id="text">Sometimes in my free time I play sports, computer and board games with friends or relatives to have fun. (For example: chess to improve memory, football to be more active, and so on)</h3>
+            </div>  
+    </div>
+</div> 
+
+    <script>
+        function c() {
+            document.getElementById("main").innerHTML="Book";
+            document.getElementById("image").src="img/NOTE.jpg";
+            document.getElementById("text").innerHTML="Sometimes I read books. It makes no difference to me any book is the main one so that it contains useful information and pictures. For example: history, culture, technology, subject, literary and so on";
+        }
+        </script>
+    <script>
+            function b() {
+                document.getElementById('main').innerHTML="Game";
+                document.getElementById("image").src="img/game.jpg";
+                document.getElementById("text").innerHTML="In my free time, I rarely play games. For example, we play a playstation or a computer or other games with my friend. (This applies to virtual ones, there are still more games waiting for you, but for a different purpose.)";
+            }
+        </script>
+
+
+<div class="important" onclick="next()">
+    <div class="contex2">
+        <div> <img src="img/painting.jpg" id="image2" class="contex-image2" ></div> 
+            <button onclick="d()" class="point">next</button>
+            <button onclick="f()" class="point2">back</button>
+                <div class="text-of2">
+
+                    <h1 id="main2">Picture</h1> 
+                    <h3 id="text2">Sometimes I spend time drawing. I paint landscapes and animations.</h3>
+                 </div>  
+    </div>
+</div> 
+
+    <script>
+    function d() {
+        document.getElementById("main2").innerHTML="Relatives";
+        document.getElementById("image2").src="img/relative.jpg";
+        document.getElementById("text2").innerHTML="Sometimes I spend my free time with my relatives. I talk to them, go for walks together, go to the cinema and it's so much fun.";
+    }
+        </script>
+    <script>
+    function f(){
+        document.getElementById("main2").innerHTML="Picture";
+        document.getElementById("image2").src="img/painting.jpg"
+        document.getElementById("text2").innerHTML="Sometimes I spend time drawing. I paint landscapes and animations."
+    }
+        </script>
+
+
+<!-- Last of the page -->
+
+<div class="footer"> 
+    <img src="./img/dream.jpg" class="footerImg">
+</div>
+
+
+<div class="last">
+    <h1 id="image">Pictures</h1>
+    <img src="./img/nature (6).jpg" class="lastImg">
+    <img src="./img/nature (5).jpg" class="lastImg">
+    <img src="./img/nature (4).jpg" class="lastImg">
+    <img src="./img/nature (3).jpg" class="lastImg">
+    <img src="./img/nature (2).jpg" class="lastImg">
+    <img src="./img/nature (1).jpg" class="lastImg">
+</div>
+
+
+
+</body>
+</html>
+
+ 
